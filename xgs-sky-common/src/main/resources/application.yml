@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+#    设置应用名称、可选
+    name: xgs-sky-admin
+  datasource:
+    password: Xiaogs
+    username: root
+    url: jdbc:mysql://43.139.251.19:3306/sky_take_out
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-puls:
+  configuration:
+    #在映射
